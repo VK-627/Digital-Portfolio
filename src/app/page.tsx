@@ -28,7 +28,7 @@ export default function Home() {
 
       <Section id="about" title="About">
         <p className="mx-auto max-w-3xl text-center md:text-left text-zinc-300 text-base md:text-lg">
-          I'm passionate about solving real-world problems through data and always eager to learn and build. Hands-on experience in ML, EDA, Regression/Classification, Time series, PowerBI, MySQL and Deep learning.
+          I am passionate about solving real-world problems through data and always eager to learn and build. Hands-on experience in ML, EDA, Regression/Classification, Time series, PowerBI, MySQL and Deep learning.
         </p>
       </Section>
 
