@@ -58,7 +58,7 @@ export default function Projects() {
             title="Riskos – Stock Risk Analysis Tool"
             problem="Investors need a fast way to evaluate stock risk using multiple signals."
             approach="Combined historical volatility with sentiment to produce an interpretable risk profile; interactive UI built with React."
-            href="#"
+            href="https://github.com/VK-627/Riskos.git"
           />
           <ProjectCard
             title="CNN Image Classifier"
