@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+
 export default function HeroPreviews() {
   return (
     <main className="bg-black text-white min-h-screen">
@@ -125,6 +126,10 @@ export default function HeroPreviews() {
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-6xl border-t border-white/10 my-10" />
+
+
     </main>
   );
 }

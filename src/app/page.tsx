@@ -3,7 +3,10 @@
 import Link from "next/link";
 import HeroBanner from "../components/HeroBanner";
 import Section from "../components/Section";
-import SkillPills from "../components/SkillPills";
+
+import SkillsCards from "../components/SkillsCards";
+import ExperienceCard from "../components/ExperienceCard";
+import EducationCard from "../components/EducationCard";
 import ContactRow from "../components/ContactRow";
 
 export default function Home() {
@@ -22,18 +25,26 @@ export default function Home() {
         name="Vishwas Kaushik"
         titleLine="Final-year B.Tech CSE • Data Science"
         seekingLine="Actively seeking Data Scientist / Data Analyst roles"
-        summary="Hands-on with ML, EDA, regression/classification, time series, PowerBI, MySQL and deep learning."
+        summary="Hands-on experience in Machine Learning, Data Analysis, Predictive Modeling, and Data Visualization using Python, Power BI, MySQL, and Deep Learning."
         photoSrc="/vishwas.jpg"
       />
 
       <Section id="about" title="About">
         <p className="mx-auto max-w-3xl text-center md:text-left text-zinc-300 text-base md:text-lg">
-          I am passionate about solving real-world problems through data and always eager to learn and build. Hands-on experience in ML, EDA, Regression/Classification, Time series, PowerBI, MySQL and Deep learning.
+        I am a data enthusiast who approaches projects with clear planning, explores solutions hands-on, and refines them for real-world impact. I value work that helps people make better decisions and take pride in being dependable — whether collaborating in a team or working independently. Always curious and eager to learn, I focus on delivering quality results and building trust through my work.
         </p>
       </Section>
 
       <Section id="skills" title="Skills">
-        <SkillPills />
+        <SkillsCards />
+      </Section>
+
+      <Section id="experience" title="Experience">
+        <ExperienceCard />
+      </Section>
+
+      <Section id="education" title="Education">
+        <EducationCard />
       </Section>
 
       <Section id="projects" title="Featured Projects">
@@ -50,8 +61,6 @@ export default function Home() {
           </Link>
         </div>
       </Section>
-
-
 
       <Section id="contact" title="Contact Me">
         <ContactRow />
