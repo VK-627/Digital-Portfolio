@@ -49,27 +49,48 @@ export default function Projects() {
         </p>
       </section>
 
-      
-
       {/* Projects Grid (2 columns responsive) */}
-      <Section title="Projects" subtitle="Here are some of my featured projects. Click the GitHub icon to view the code.">
+      <Section title="Projects" subtitle="Here are some of my featured projects.">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          {/* Riskos */}
           <ProjectCard
             title="Riskos – Stock Risk Analysis Tool"
-            problem="Investors need a fast way to evaluate stock risk using multiple signals."
-            approach="Combined historical volatility with sentiment to produce an interpretable risk profile; interactive UI built with React."
+            problem="Retail investors often lack tools to quantify portfolio risk and forecast market volatility across multiple stocks."
+            approach="Developed a full-stack Python + React app with financial APIs to compute VaR, CVaR, and Sharpe Ratio. Integrated ARIMA and GARCH for volatility forecasting across Nifty50 stocks. Containerized with Docker and automated CI/CD via Jenkins."
+            impact="Delivered an interactive dashboard where users can instantly analyze portfolio risk and market uncertainty, helping them make more data-informed investment decisions."
             href="https://github.com/VK-627/Riskos.git"
           />
+
+          {/* Predictive Modeling Portfolio */}
           <ProjectCard
-            title="CNN Image Classifier"
-            problem="Medical images require accurate automated classification for triage support."
-            approach="Built a CNN pipeline with preprocessing and augmentation; deployed for real-time inference."
-            href="#"
+            title="Predictive Modeling Case Study Portfolio"
+            problem="Organizations across domains need reliable ML models for forecasting, classification, and decision-making."
+            approach="Completed 11 end-to-end ML case studies in Google Colab, applying regression, classification, clustering, time series forecasting, PCA, CNNs, and cross-validation. Covered diverse datasets in finance, astronomy, e-commerce, and computer vision."
+            impact="Built a diverse modeling portfolio showcasing ability to adapt ML methods to different domains, translating raw data into actionable insights."
+            href="https://github.com/VK-627/Predictive-Modeling-Case-Studies.git"
           />
+
+          {/* HR Analytics */}
+          <ProjectCard
+            title="HR Analytics Dashboard (Employee Attrition)"
+            problem="High employee attrition increases costs and disrupts workforce stability. HR teams need visibility into turnover drivers."
+            approach="Designed an interactive Power BI dashboard (IBM HR dataset, ~1.4K records) with DAX measures to track attrition by department, role, and demographics. Identified low salary, overtime, and dissatisfaction as key drivers; Sales Reps showed the highest attrition (40%)."
+            impact="Enabled HR teams to design targeted retention strategies by pinpointing high-risk roles and key attrition drivers."
+            href="https://github.com/VK-627/HR-Analytics-Dashboard-Employee-Attrition-Power-BI.git"
+          />
+
+          {/* Rural Healthcare AI */}
+          <ProjectCard
+            title="Empowering Rural Healthcare through AI Solutions"
+            problem="Rural healthcare systems face limited resources for early cancer detection, making accurate triage and diagnosis difficult."
+            approach="Built a multimodal pipeline combining medical image models (ResNet18, DenseNet121) with an NLP component analyzing clinical reports. Late-fusion ensembles improved validation accuracy from ~53% to ~84%."
+            impact="Showcased potential of AI-assisted diagnosis in low-resource settings, improving prediction robustness and enabling early intervention strategies."
+            reportLink="/R&D_Report.pdf"
+          />
+
         </div>
       </Section>
-
-      
 
       {/* Contact Section */}
       <section className="max-w-2xl mx-auto px-4 py-8">

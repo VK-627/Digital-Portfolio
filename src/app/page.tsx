@@ -55,8 +55,8 @@ export default function Home() {
             <span className="mt-3 inline-block text-xs text-blue-300">See details →</span>
           </Link>
           <Link href="/projects" className="rounded-2xl border border-white/10 bg-white/5 p-5 hover:bg-white/10 transition">
-            <h3 className="text-lg font-semibold">CNN Image Classifier</h3>
-            <p className="mt-2 text-sm text-zinc-300">Automated classification of medical images with CNNs.</p>
+            <h3 className="text-lg font-semibold">Predictive Modeling Case Study Portfolio</h3>
+            <p className="mt-2 text-sm text-zinc-300">11 end-to-end ML case studies in Google Colab.</p>
             <span className="mt-3 inline-block text-xs text-blue-300">See details →</span>
           </Link>
         </div>
