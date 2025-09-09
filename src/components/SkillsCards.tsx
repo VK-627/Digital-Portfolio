@@ -35,7 +35,7 @@ const skills: Skill[] = [
   { name: "JavaScript", icon: SiJavascript, category: "Programming Languages" },
   { name: "R", icon: SiR, category: "Programming Languages" },
 
-  { name: "TensorFlow", icon: SiTensorflow, category: "Libraries and Frameworks" },
+  // { name: "TensorFlow", icon: SiTensorflow, category: "Libraries and Frameworks" },
   { name: "Pandas", icon: SiPandas, category: "Libraries and Frameworks" },
   { name: "NumPy", icon: SiNumpy, category: "Libraries and Frameworks" },
   { name: "Scikit-learn", icon: SiScikitlearn, category: "Libraries and Frameworks" },
